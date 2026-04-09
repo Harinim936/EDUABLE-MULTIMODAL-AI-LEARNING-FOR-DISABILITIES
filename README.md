@@ -48,61 +48,48 @@ python manage.py runserver
 cd frontend
 npm install
 npm start
-🧹 Cleanup Commands
-npm run clean              # Clean all build artifacts
-npm run clean:frontend     # Clean frontend build files
-npm run clean:backend      # Clean backend files
-🔍 Project Structure
-eduable/
-├── backend/                  # Django Backend
-│   ├── api/                  # REST APIs
-│   ├── models/               # Database models
-│   ├── views/                # Business logic
-│   └── utils/                # AI integrations
-│
-├── frontend/                 # React / React Native UI
-│   ├── components/           # UI components
-│   ├── screens/              # App screens
-│   ├── services/             # API calls
-│   └── assets/               # Images & styles
-│
-├── ml-models/                # AI/ML models
-│   ├── gesture/              # Gesture recognition
-│   ├── speech/               # STT & TTS
-│   └── nlp/                  # BERT models
-│
-├── datasets/                 # Training datasets
-├── requirements.txt
-└── README.md
+
+
 🤖 Modules & Working
+
 🎯 Gesture Recognition
 Uses MediaPipe + OpenCV + CNN
 Detects 21 hand landmarks
 Classifies gestures in real-time
 Enables touch-free navigation
+
 🎤 Speech Recognition (STT)
+
 Uses Whisper / DeepSpeech
 Converts speech → text
 Supports commands like:
 “Open lesson”
 “Next topic”
+
 🔊 Text-to-Speech (TTS)
+
 Uses Tacotron 2 + gTTS
 Converts text → speech
 Uses:
 Mel-spectrogram
 Vocoder for audio generation
+
 🧠 Content Simplification
+
 Uses BERT NLP model
 Simplifies complex text
 Improves readability for learners
+
 🤖 AI Assistant
+
 Chat-based support system
 Helps with:
 Learning queries
 Navigation
 Assistance
+
 🧠 Algorithm Flow
+
 Input → Processing → AI Model → Output → User Interaction
 
 Example:
