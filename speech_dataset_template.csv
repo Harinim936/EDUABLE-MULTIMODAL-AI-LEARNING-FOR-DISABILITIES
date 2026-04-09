@@ -1,0 +1,5 @@
+# Speech Recognition Dataset Template
+# Format: audio_file_path|transcript|speaker_id
+audio_001.wav|"hello world"|speaker_1
+audio_002.wav|"how are you"|speaker_1
+audio_003.wav|"thank you"|speaker_2

@@ -1,0 +1,4 @@
+# ASL Gesture Dataset Collection Template
+# Format: gesture_name,landmarks_json,timestamp
+gesture_a,[{"x":0.5,"y":0.5,"z":0.0},...],2024-01-01T10:00:00Z
+gesture_b,[{"x":0.4,"y":0.6,"z":0.0},...],2024-01-01T10:00:01Z

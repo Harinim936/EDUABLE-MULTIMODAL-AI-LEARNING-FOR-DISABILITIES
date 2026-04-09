@@ -1,0 +1,4 @@
+# Text Simplification Dataset Template
+# Format: complex_text|simplified_text
+Complex: The mitochondria is the powerhouse of the cell.|Simple: The mitochondria gives energy to the cell.
+Advanced: Photosynthesis is the process by which plants convert sunlight into chemical energy.|Basic: Plants use sunlight to make food.
